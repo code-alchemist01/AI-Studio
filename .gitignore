@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model Cache
+models_cache/
+.cache/
+hf_cache/
+transformers_cache/
+
+# Generated Files
+*.mp4
+*.avi
+*.mov
+*.glb
+*.obj
+*.ply
+*.stl
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+generated_*
+text_to_*
+image_to_*
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Large Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# API Keys (extra security)
+*token*
+*key*
+*secret*
+api_keys.txt
+credentials.json
+
+# Model Downloads
+models/
+checkpoints/
+weights/

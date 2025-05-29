@@ -1,0 +1,36 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+diffusers>=0.24.0
+accelerate>=0.24.0
+safetensors>=0.4.0
+
+# Image processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# 3D processing
+trimesh>=4.0.0
+pymeshlab>=2022.2
+open3d>=0.17.0
+
+# Video processing
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+
+# Web interface
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Utilities
+requests>=2.31.0
+tqdm>=4.66.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional GPU acceleration
+# xformers>=0.0.22  # Uncomment for better performance
+# invisible-watermark>=0.2.0  # For SDXL
